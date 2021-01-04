@@ -5,8 +5,9 @@ module.exports = {
   username: "root",
   password: "docker",
   database: "sequelize",
+  logging: false,
   define: {
-    "timestamps": true,
+    timestamps: true,
     underscored: true,
     underscoredAll: true
   }
