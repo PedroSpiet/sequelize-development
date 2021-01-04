@@ -1,4 +1,4 @@
-const { users } = require("../models/index.js");
+const { users } = require("../../models/index.js");
 
 class FindUserByEmail {
   async handle(email) {

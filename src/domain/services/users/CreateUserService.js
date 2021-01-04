@@ -1,4 +1,4 @@
-const { users } = require('../models/index');
+const { users } = require('../../models/index');
 const FindUserByEmail = require('./FindUserByEmail');
 
 class CreateUserService {

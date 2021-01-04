@@ -7,5 +7,6 @@ routes.post("/", UserController.store);
 routes.get("/", UserController.index);
 routes.get("/:id", UserController.show);
 routes.delete("/", UserController.remove);
+routes.put("/:id", UserController.update);
 
 module.exports = routes;

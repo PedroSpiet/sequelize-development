@@ -1,4 +1,4 @@
-const { users } = require('../models');
+const { users } = require('../../models');
 const FindUserService = require('./FindUserService');
 
 class RemoveUserService {
