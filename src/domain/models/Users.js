@@ -7,9 +7,12 @@ module.exports = (Sequelize, DataTypes) => {
     },
     name: DataTypes.STRING,
     email: DataTypes.STRING,
-    telephone: DataTypes.INTEGER
+    telephone: DataTypes.INTEGER,
   });
 
-
+  user.associate = (models) => {
+    user.hasMany(models.teams);
+  };
+  
   return user;
-}
+};
